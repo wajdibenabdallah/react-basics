@@ -1,10 +1,8 @@
-import * as Tasks from "./component";
-
+import FoodOrder from "./projects/FoodOrder";
 const Main = () => {
   return (
     <div>
-      <Tasks.Increment />
-      <Tasks.Todo />
+      <FoodOrder />
     </div>
   );
 };
